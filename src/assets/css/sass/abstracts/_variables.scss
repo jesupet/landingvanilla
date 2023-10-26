@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,700;8..60,900&display=swap');
+
+//Typography
+$tittle-font: 'Source Serif Pro', serif;
+$p-font: 'Lato', sans-serif;
+
+//Colors
+$light-pink: #FF93F4;
+$fuchsia: #FF3A81;
+$purple: #763BFF;
+$black: #000;
+$white: #fff;
+$light-grey: #8E899D;
+
+//Font Size
+$title-size: 55px;
+$subtitle-size: 30px;
+
+//RESPONSIVE
+$phone-width: 576px; // sm en BS
+$tablet-width: 768px; // md en BS
+$big-tablet-width: 992px; // lg en BS
+$desktop-width: 1200px; // xl en BS

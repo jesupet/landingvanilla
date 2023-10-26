@@ -1,0 +1,47 @@
+h1, h2, h3 {
+  font-family: $tittle-font;
+  font-size: $title-size;
+  font-weight: 900;
+}
+p {
+  font-size: $subtitle-size;
+  font-family: $p-font;
+  font-weight: 400;
+}
+.little-p {
+  font-family: $p-font;
+  font-weight: 300;
+}
+.mini-little-p {
+  @media (min-width: $phone-width) {
+    font-size: 15px;
+  }
+  font-family: $p-font;
+  font-weight: 400;
+  font-size: 11px;
+}
+.bajada {
+  font-size: 23px;
+  color: $light-pink;
+  font-family: $p-font;
+  font-style: italic;
+  font-weight: 300;
+}
+.white-text {
+  color: $white;
+}
+.purple-text {
+  color: $purple;
+}
+.white-text {
+  color: $white;
+}
+.black-text {
+  color: $black;
+}
+.pink-text {
+  color: $light-pink;
+}
+.bold-text {
+  font-weight: 700;
+}

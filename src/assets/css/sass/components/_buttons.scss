@@ -1,0 +1,16 @@
+.btn-fuchsia {
+  background-color: $fuchsia;
+  color: $white;
+  font-family: $p-font;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 8px 24px;
+  height: 3rem;
+}
+
+.btn-fuchsia:hover {
+  color: $fuchsia;
+  border-color: $fuchsia;
+  background-color: transparent;
+  text-decoration: none;
+}
