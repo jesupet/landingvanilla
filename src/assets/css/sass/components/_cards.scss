@@ -1,0 +1,25 @@
+.card {
+  border-radius: 35px;
+  border-color: $light-pink;
+  margin-bottom: 54px;
+  max-width: 408px;
+  min-height: 474px;
+}
+.card-body {
+  padding: 72px 36px 55px;
+}
+.number {
+  background-color: $light-pink;
+  width: 102px;
+  height: 102px;
+  border-radius: 50%;
+  display: grid;
+  align-items: center;
+  margin-top: -50px;
+}
+.step-cont {
+  @media (max-width: $desktop-width) {
+    display: flex;
+    justify-content: center;
+  }
+}

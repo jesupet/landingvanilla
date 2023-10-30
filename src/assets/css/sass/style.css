@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,700;8..60,900&display=swap");
 #app {
   width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -29,6 +28,7 @@ h1, h2, h3 {
   font-family: "Source Serif Pro", serif;
   font-size: 55px;
   font-weight: 900;
+  margin-bottom: 0px;
 }
 
 p {
@@ -37,9 +37,20 @@ p {
   font-weight: 400;
 }
 
+.mini-title {
+  font-family: "Source Serif Pro", serif;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 35px;
+}
+
 .little-p {
   font-family: "Lato", sans-serif;
   font-weight: 300;
+}
+
+.medium-p {
+  font-size: 20px;
 }
 
 .mini-little-p {
@@ -47,7 +58,6 @@ p {
   font-weight: 400;
   font-size: 11px;
 }
-
 @media (min-width: 576px) {
   .mini-little-p {
     font-size: 15px;
@@ -121,21 +131,48 @@ p {
   text-decoration: none;
 }
 
-.purple-wave, .pink-wave {
+.purple-wave, .pink-wave, .grey-wave {
   padding-bottom: 20px;
   width: 200%;
   margin-top: -2px;
 }
-
 @media (min-width: 768px) {
-  .purple-wave, .pink-wave {
+  .purple-wave, .pink-wave, .grey-wave {
     width: 100%;
   }
 }
 
 .invertir {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.card {
+  border-radius: 35px;
+  border-color: #FF93F4;
+  margin-bottom: 54px;
+  max-width: 408px;
+  min-height: 474px;
+}
+
+.card-body {
+  padding: 72px 36px 55px;
+}
+
+.number {
+  background-color: #FF93F4;
+  width: 102px;
+  height: 102px;
+  border-radius: 50%;
+  display: grid;
+  align-items: center;
+  margin-top: -50px;
+}
+
+@media (max-width: 1200px) {
+  .step-cont {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .pre-header {
@@ -148,21 +185,14 @@ header {
 
 nav {
   padding: 32px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-title {
   padding: 100px 12px 30vh;
 }
-
 @media (min-width: 1200px) {
   .main-title {
     padding: 100px 270px 25vh;
@@ -170,19 +200,15 @@ nav {
 }
 
 .gif-pc-cont {
-  display: -ms-grid;
   display: grid;
   justify-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .gif-pc {
   margin-top: -40vh;
   max-width: 800px;
 }
-
 @media (min-width: 768px) {
   .gif-pc {
     margin-top: -40vh;
@@ -190,50 +216,36 @@ nav {
 }
 
 #incluye {
-  background: -webkit-gradient(linear, left top, left bottom, from(#763BFF), color-stop(98.68%, #C16BF9));
   background: linear-gradient(180deg, #763BFF 0%, #C16BF9 98.68%);
   padding: 48px 0px;
   text-align: center;
 }
 
 .secciones {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 30px 0px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 @media (min-width: 768px) {
   .secciones {
     margin: 30px 15vw;
   }
   .secciones .seccion-right {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
   }
   .secciones .seccion-left {
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
   }
 }
 
 .seccion-left, .seccion-right {
   background-color: #fff;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
   max-width: fit-content;
   border-radius: 20px;
   margin: 10px;
   min-width: 400px;
 }
-
 .seccion-left p, .seccion-right p {
   padding: 16px 54px;
 }
@@ -242,4 +254,13 @@ nav {
   background-color: #FF93F4;
   color: #fff;
 }
+
+#comofunciona h2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#comofunciona .row {
+  padding-bottom: 100px;
+}
+
 /*# sourceMappingURL=style.css.map */

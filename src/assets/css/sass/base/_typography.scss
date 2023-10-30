@@ -2,15 +2,25 @@ h1, h2, h3 {
   font-family: $tittle-font;
   font-size: $title-size;
   font-weight: 900;
+  margin-bottom: 0px;
 }
 p {
   font-size: $subtitle-size;
   font-family: $p-font;
   font-weight: 400;
 }
+.mini-title {
+  font-family: $tittle-font;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 35px;
+}
 .little-p {
   font-family: $p-font;
   font-weight: 300;
+}
+.medium-p {
+  font-size: 20px;
 }
 .mini-little-p {
   @media (min-width: $phone-width) {

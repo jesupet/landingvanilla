@@ -58,6 +58,27 @@
       </div>
     </section>
     <PinkWave/>
+    <section id="comofunciona" class="text-center container">
+      <h2 class="purple-text">¿Cómo funciona?</h2>
+      <div class="row text-center">
+        <StepCard 
+          :CardNumber="'1'" 
+          :CardTittle="'Envíanos toda la información que quieres incorporar'" 
+          :CardText="'Según la estructura anterior. Nosotros nos encargamos de aterrizarlo en una maqueta siguiendo tu imagen de marca de una forma genial!'"
+        />
+        <StepCard 
+          :CardNumber="'2'" 
+          :CardTittle="'Llevamos todo lo aprobado a tu maqueta digital'" 
+          :CardText="'Conectamos con Google Analytics, agregamos el pixel de facebook. Agregamos formulario (si lo necesitas) o linkeamos a la URL donde quieres enviar a tus prospectos.'"
+        />
+        <StepCard 
+          :CardNumber="'3'" 
+          :CardTittle="'¿Todo OK? Entonces dejamos online tu landingpage.'" 
+          :CardText="'Ya puedes atraer a tus potenciales clientes y captar su interés.'"
+        />
+      </div>
+    </section>
+    <GreyWave/>
   </div>
 </template>
 
@@ -67,6 +88,8 @@ import PreHeader from '@/components/PreHeader.vue'
 import FuchsiaButton from '@/components/FuchsiaButton.vue'
 import WaveComp from '@/components/WaveComp.vue'
 import PinkWave from '@/components/PinkWave.vue'
+import StepCard from '@/components/StepCard.vue'
+import GreyWave from '@/components/GreyWave.vue'
 
 export default {
   name: 'HomeView',
@@ -74,7 +97,9 @@ export default {
     PreHeader,
     FuchsiaButton,
     WaveComp,
-    PinkWave
+    PinkWave,
+    StepCard,
+    GreyWave
   }
 }
 </script>
