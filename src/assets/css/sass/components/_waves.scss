@@ -1,8 +1,11 @@
-.purple-wave {
+.purple-wave, .pink-wave {
   padding-bottom: 20px;
   width: 200%;
   @media (min-width: $tablet-width){
     width: 100%;
   }
   margin-top: -2px;
+}
+.invertir {
+  transform: rotate(180deg);
 }

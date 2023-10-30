@@ -42,6 +42,20 @@ p {
 .pink-text {
   color: $light-pink;
 }
+.grey-text {
+  color: $light-grey;
+}
 .bold-text {
   font-weight: 700;
+}
+.big-text {
+  font-size: 50px;
+  font-weight: 700;
+}
+.little-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+.tachado {
+  text-decoration: line-through;
 }

@@ -1,0 +1,35 @@
+#incluye {
+  background: linear-gradient(180deg, $purple 0%, #C16BF9 98.68%);
+  padding: 48px 0px;
+  text-align: center;
+}
+.secciones {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px;
+  align-items: center;
+  @media (min-width: $tablet-width){
+    margin: 30px 15vw;
+    .seccion-right {
+      align-self: flex-end;
+    }
+    .seccion-left {
+      align-self: flex-start;
+    }
+  }
+}
+.seccion-left, .seccion-right {
+  background-color: $white;
+  max-width: fit-content;
+  border-radius: 20px;
+  margin: 10px;
+  min-width: 400px;
+  p {
+    padding: 16px 54px;
+  }
+}
+
+.bg-pink {
+  background-color: $light-pink;
+  color: $white;
+}

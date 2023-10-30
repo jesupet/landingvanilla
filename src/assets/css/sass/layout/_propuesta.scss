@@ -1,0 +1,12 @@
+.gif-pc-cont {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+}
+.gif-pc {
+  @media (min-width: $tablet-width){
+    margin-top: -40vh;
+  }
+  margin-top: -40vh;
+  max-width: 800px;
+}
