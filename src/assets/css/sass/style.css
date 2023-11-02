@@ -478,8 +478,12 @@ nav {
           align-items: center;
 }
 
+#somos {
+  padding-bottom: 100px;
+}
+
 #somos h2 {
-  padding: 100px;
+  padding-top: 100px;
 }
 
 #somos .mini-title, #somos .medium-p {

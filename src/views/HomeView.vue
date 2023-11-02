@@ -239,7 +239,10 @@
         <h2 class="purple-text">Tenemos precio de lanzamiento</h2>
         <p><span class="pink-text big-text">$159.000 +iva </span><span class="tachado">$257.000 + iva</span></p>
         <p class="little-text mb-4">¡Solo 10 cupos a este precio!</p>
-        <a href="" class="fuchsia-text little-text">QUIERO MI DISEÑO DE LANDING PAGE</a>
+        <a 
+          href="#tally-open=3NXjAj&tally-layout=modal&tally-width=386&tally-emoji-text=💜&tally-emoji-animation=heart-beat&tally-auto-close=6000" 
+          class="fuchsia-text little-text"
+        >QUIERO MI DISEÑO DE LANDING PAGE</a>
       </div>
     </section>
     <footer class="container text-center">
