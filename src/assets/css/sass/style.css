@@ -99,6 +99,10 @@ p {
   color: #8E899D;
 }
 
+.fuchsia-text {
+  color: #FF3A81;
+}
+
 .bold-text {
   font-weight: 700;
 }
@@ -492,5 +496,22 @@ nav {
 
 #preguntas {
   background-color: #EEEDF0;
+}
+
+#lanzamiento {
+  padding-bottom: 100px;
+}
+
+#lanzamiento h2 {
+  padding-top: 100px;
+}
+
+#lanzamiento .fuchsia-text {
+  text-decoration: underline;
+}
+
+footer img {
+  width: 170px;
+  margin: 30px;
 }
 /*# sourceMappingURL=style.css.map */

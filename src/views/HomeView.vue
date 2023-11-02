@@ -234,6 +234,17 @@
       </div>
     </section>
     <WaveComp :colorInicial="'#EEEDF0'" :colorFinal="'#EEEDF0'"/>
+    <section id="lanzamiento">
+      <div class="text-center">
+        <h2 class="purple-text">Tenemos precio de lanzamiento</h2>
+        <p><span class="pink-text big-text">$159.000 +iva </span><span class="tachado">$257.000 + iva</span></p>
+        <p class="little-text mb-4">¡Solo 10 cupos a este precio!</p>
+        <a href="" class="fuchsia-text little-text">QUIERO MI DISEÑO DE LANDING PAGE</a>
+      </div>
+    </section>
+    <footer class="container text-center">
+      <img src="../assets/logo_footer.png" alt="">
+    </footer>
   </div>
 </template>
 
