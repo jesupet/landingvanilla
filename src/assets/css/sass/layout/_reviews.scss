@@ -1,0 +1,31 @@
+#reviews {
+  background-color: #EEEDF0;
+  h2 {
+    padding: 100px 0px;
+  }
+  a {
+    margin-bottom: -40px;
+  }
+  .card-text {
+    padding-bottom: 10px;
+  }
+  .card {
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 35px;
+    border: 1px solid #FFF;
+    max-width: 408px;
+    min-height: 474px;
+    margin-bottom: 80px;
+    position: relative; /* Añade posición relativa */
+  }
+}
+.logo-cliente {
+  width: 138px;
+  margin: 32px;
+}
+.btn-purple {
+  position: absolute; /* Añade posición absoluta */
+  bottom: 15px; /* Alinea en la parte inferior de la tarjeta */
+  left: 50%; /* Alinea horizontalmente al centro */
+  transform: translateX(-50%); /* Alinea horizontalmente al centro */
+}

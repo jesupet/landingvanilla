@@ -14,3 +14,12 @@
   background-color: transparent;
   text-decoration: none;
 }
+.btn-purple {
+  background-color: $purple;
+  color: $white;
+  font-family: $p-font;
+  font-size: 17px;
+  padding: 8px 24px;
+  height: 3rem;
+  border-radius: 30px;
+}
