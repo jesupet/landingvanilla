@@ -85,7 +85,7 @@
           Esto dicen de nosotros
         </h2>
         <div class="row">
-          <div class="col-lg-4 col-12 step-cont">
+          <div class="col-xl-4 step-cont">
             <div class="card align-items-center">
               <img src="../assets/remax.png" alt="" class="card-img-top logo-cliente">
               <div class="card-body">
@@ -98,11 +98,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-12 step-cont">
+          <div class="col-xl-4 step-cont">
             <div class="card align-items-center">
               <img src="../assets/futuropat.png" alt="" class="card-img-top logo-cliente">
               <div class="card-body">
-                <p class="card-title mini-title">Futura Patagonia</p>
+                <p class="card-title mini-title">Futuro Patagonia</p>
                 <p class="card-text medium-p sans">Mario Ureta</p>
                 <p class="card-text mini-little-p">
                   Pendiente
@@ -111,7 +111,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-12 step-cont">
+          <div class="col-xl-4 step-cont">
             <div class="card align-items-center">
               <img src="../assets/joaquin.png" alt="" class="card-img-top logo-cliente">
               <div class="card-body">
@@ -166,20 +166,20 @@
       <div class="container text-center">
         <h2 class="purple-text">Somos</h2>
         <div class="row">
-          <div class="col-4">
+          <div class="col-xl-4 mb-xl-0 mb-3">
             <img src="../assets/michelle.png" alt="">
           </div>
-          <div class="col-8 text-start">
+          <div class="col-xl-8 text-xl-start">
             <p class="mini-title">Michelle De Dompierre</p>
             <p class="bajada">Fundadora de Vanilla Diseño</p>
             <p class="medium-p mt-3">Soy titulada de Diseño Industrial, Diplomada de Marketing Estratégico y me encanta permanecer en constante aprendizaje de nuevas herramientas, tendencias y habilidades. Estoy convencida que el aporte de diseño potencia enormemente a los negocios, no solo de cara al cliente y consumidor, sino que también juega un papel muy relevante en la confianza del equipo sobre la marca.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-4 order-1">
+          <div class="col-xl-4 order-xl-1 order-0 m-xl-0 my-3">
             <img src="../assets/jesu.png" alt="">
           </div>
-          <div class="col-8 text-end order-0">
+          <div class="col-xl-8 text-xl-end order-xl-0 order-1">
             <p class="mini-title">María Jesús Petour</p>
             <p class="bajada">Desarrollo y gestión de proyectos</p>
             <p class="medium-p mt-3">Como la persona curiosa y activa que soy, siempre estoy buscando cosas nuevas que aprender, como deportes, manualidades, tecnologías, etc. Estudié Ingeniería Comercial y los últimos años he explorado el mundo digital, donde vinculando mi creatividad con mi capacidad organizacional he aprendido nuevas herramientas y desarrollado grandes proyectos, sobre todo durante la pandemia, donde estudié Desarrollo Front End aprendiendo herramientas como JavaScript, HTML y CSS.</p>
@@ -235,7 +235,7 @@
     </section>
     <WaveComp :colorInicial="'#EEEDF0'" :colorFinal="'#EEEDF0'"/>
     <section id="lanzamiento">
-      <div class="text-center">
+      <div class="text-center container">
         <h2 class="purple-text">Tenemos precio de lanzamiento</h2>
         <p><span class="pink-text big-text">$159.000 +iva </span><span class="tachado">$257.000 + iva</span></p>
         <p class="little-text mb-4">¡Solo 10 cupos a este precio!</p>

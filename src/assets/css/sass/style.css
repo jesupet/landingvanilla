@@ -201,6 +201,20 @@ p {
   padding: 72px 36px 55px;
 }
 
+#reviews .card-text {
+  padding-bottom: 10px;
+}
+
+#reviews .card {
+  -webkit-box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 35px;
+  border: 1px solid #FFF;
+  max-width: 408px;
+  min-height: 474px;
+  margin-bottom: 80px;
+}
+
 .number {
   background-color: #FF93F4;
   width: 102px;
@@ -357,7 +371,6 @@ nav {
   max-width: fit-content;
   border-radius: 20px;
   margin: 10px;
-  min-width: 400px;
 }
 
 .seccion-left p, .seccion-right p {
