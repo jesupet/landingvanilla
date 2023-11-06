@@ -22,4 +22,10 @@
   padding: 8px 24px;
   height: 3rem;
   border-radius: 30px;
+  line-height: 25px;
+}
+.btn-purple:hover {
+  background-color: $white;
+  border: 1px solid $purple;
+  color: $purple;
 }

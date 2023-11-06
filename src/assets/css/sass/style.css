@@ -154,6 +154,13 @@ p {
   padding: 8px 24px;
   height: 3rem;
   border-radius: 30px;
+  line-height: 25px;
+}
+
+.btn-purple:hover {
+  background-color: #fff;
+  border: 1px solid #763BFF;
+  color: #763BFF;
 }
 
 .purple-wave, .pink-wave {
@@ -350,31 +357,33 @@ nav {
           align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .secciones {
-    margin: 30px 15vw;
+    margin: 30px;
   }
   .secciones .seccion-right {
     -ms-flex-item-align: end;
         align-self: flex-end;
+    width: 532px;
+    margin-right: 150px;
   }
   .secciones .seccion-left {
     -ms-flex-item-align: start;
         align-self: flex-start;
+    width: 532px;
+    margin-left: 150px;
   }
 }
 
 .seccion-left, .seccion-right {
   background-color: #fff;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+  width: 100%;
   border-radius: 20px;
   margin: 10px;
 }
 
 .seccion-left p, .seccion-right p {
-  padding: 16px 54px;
+  padding: 16px;
 }
 
 .bg-pink {

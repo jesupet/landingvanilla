@@ -143,7 +143,7 @@
             <p class="medium-p">Más de 50 negocios atendidos en los últimos años.</p>
           </div>
           <div class="col-12 col-lg-3 us-cont">
-            <img src="" alt="audifonos">
+            <img src="../assets/icons/grl_pwr.png" alt="audifonos">
             <p class="medium-p">Somos un equipo de mujeres apasionadas por los desafíos.</p>
           </div>
           <div class="col-12 col-lg-3 us-cont">
@@ -157,7 +157,7 @@
     <section id="cta" class="container-fluid">
       <div class="container d-flex justify-content-between mx-auto cta-box">
         <h3 class="white-text bold d-lg-inline d-block text-lg-start text-center">¿Tu negocio necesita<br><span class="no-bold">expresar lo genial que es?</span></h3>
-        <img src="../assets/purple-arrow.svg" alt="flecha curva" class="d-xl-block d-none purple-arrow">
+        <img src="../assets/white_arrow.svg" alt="flecha curva" class="d-xl-block d-none purple-arrow">
         <FuchsiaButton :buttonText="'¡Trabajemos juntos!'" class="d-block mt-5"/>
       </div>
     </section>
