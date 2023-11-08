@@ -75,7 +75,7 @@ p {
 
 @media (min-width: 1200px) {
   .mini-little-p {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
@@ -324,6 +324,10 @@ nav {
           align-items: center;
 }
 
+nav img {
+  width: 69px;
+}
+
 .main-title {
   padding: 100px 12px 30vh;
 }
@@ -439,6 +443,12 @@ nav {
 
 #reviews a {
   margin-bottom: -40px;
+}
+
+@media (min-width: 1200px) {
+  #reviews .mini-little-p {
+    font-size: 15px;
+  }
 }
 
 .logo-cliente {

@@ -6,6 +6,11 @@
   a {
     margin-bottom: -40px;
   }
+  .mini-little-p {
+    @media (min-width: $desktop-width) {
+      font-size: 15px;
+    }
+  }
 }
 .logo-cliente {
   width: 138px;
