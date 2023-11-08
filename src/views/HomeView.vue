@@ -12,10 +12,10 @@
       </div>
     </header>
     <WaveComp/>
-    <section class="container text-center mb-5 pb-5">
-    <div class="div gif-pc-cont">
-      <img src="../assets/animacion-landings.gif" alt="" class="gif-pc img-fluid">
-    </div>
+    <section class="container text-center mb-5 pb-5" id="propuesta">
+      <div class="div gif-pc-cont">
+        <img src="../assets/animacion-landings.gif" alt="" class="gif-pc img-fluid">
+      </div>
       <FuchsiaButton :buttonText="'Quiero mi landing page'" class="my-4"/>
       <h2 class="">Comunica el mensaje de tu <span class="purple-text">negocio, servicio o lanzamiento</span></h2>
       <p class="grey-text">de una manera directa y captando la atención de tu cliente objetivo con un <span class="bold-text">atractivo landing page</span>.</p>
@@ -27,28 +27,28 @@
         <p class="white-text">Diseño y desarrollo de un landing page incluyendo 6 secciones:</p>
         <div class="secciones">
           <div class="seccion-left">
-            <p>Header + Llamado a la acción</p>
+            <p class="mini-little-p">Header + Llamado a la acción</p>
           </div>
           <div class="seccion seccion-right">
-            <p>Propuesta de valor</p>
+            <p class="mini-little-p">Propuesta de valor</p>
           </div>
           <div class="seccion-left">
-            <p>Beneficios / Valor agregado</p>
+            <p class="mini-little-p">Beneficios / Valor agregado</p>
           </div>
           <div class="seccion seccion-right">
-            <p>Referencias / Testimonios</p>
+            <p class="mini-little-p">Referencias / Testimonios</p>
           </div>
           <div class="seccion-left">
-            <p>Datos de contacto + Formulario</p>
+            <p class="mini-little-p">Datos de contacto + Formulario</p>
           </div>
           <div class="seccion seccion-right">
-            <p>Preguntas frecuentes</p>
+            <p class="mini-little-p">Preguntas frecuentes</p>
           </div>
           <div class="seccion-left bg-pink">
-            <p>Pixel de facebook y Google Analytics</p>
+            <p class="mini-little-p">Pixel de facebook y Google Analytics</p>
           </div>
            <div class="seccion-right bg-pink">
-            <p>Whatsapp visible en toda la web</p>
+            <p class="mini-little-p">Whatsapp visible en toda la web</p>
           </div>
         </div>
         <p class="white-text">Precio lanzamiento: <span class="pink-text big-text">$159.000 +iva </span><span class="tachado">$257.000 + iva</span></p>

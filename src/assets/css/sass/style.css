@@ -28,15 +28,27 @@ p {
 
 h1, h2, h3 {
   font-family: "Source Serif Pro", serif;
-  font-size: 55px;
+  font-size: 42px;
   font-weight: 900;
   margin-bottom: 0px;
 }
 
+@media (min-width: 1200px) {
+  h1, h2, h3 {
+    font-size: 55px;
+  }
+}
+
 p {
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
+}
+
+@media (min-width: 1200px) {
+  p {
+    font-size: 30px;
+  }
 }
 
 .mini-title {
@@ -58,12 +70,12 @@ p {
 .mini-little-p {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 15px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   .mini-little-p {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
@@ -113,8 +125,14 @@ p {
 }
 
 .little-text {
-  font-size: 18px;
+  font-size: 11px;
   font-weight: 400;
+}
+
+@media (min-width: 1200px) {
+  .little-text {
+    font-size: 18px;
+  }
 }
 
 .tachado {
@@ -312,7 +330,7 @@ nav {
 
 @media (min-width: 1200px) {
   .main-title {
-    padding: 100px 270px 25vh;
+    padding: 70px 200px 25vh;
   }
 }
 
@@ -329,17 +347,30 @@ nav {
   margin-top: -40vh;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .gif-pc {
-    margin-top: -40vh;
+    margin-top: -48vh;
   }
+}
+
+@media (min-width: 1200px) {
+  .gif-pc {
+    margin-top: -55vh;
+  }
+}
+
+#propuesta h2 {
+  margin-top: 30px;
 }
 
 #incluye {
   background: -webkit-gradient(linear, left top, left bottom, from(#763BFF), color-stop(98.68%, #C16BF9));
   background: linear-gradient(180deg, #763BFF 0%, #C16BF9 98.68%);
-  padding: 48px 0px;
   text-align: center;
+}
+
+#incluye h2 {
+  padding: 70px 0px 20px;
 }
 
 .secciones {
@@ -391,8 +422,7 @@ nav {
 }
 
 #comofunciona h2 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 70px 0px 100px;
 }
 
 #comofunciona .row {
@@ -404,7 +434,7 @@ nav {
 }
 
 #reviews h2 {
-  padding: 100px 0px;
+  padding: 70px 0px;
 }
 
 #reviews a {
@@ -429,11 +459,11 @@ nav {
 }
 
 #nosotros {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 #nosotros h2 {
-  padding: 100px 0px;
+  padding: 60px 0px;
 }
 
 #nosotros img {
@@ -447,11 +477,18 @@ nav {
   -ms-flex-line-pack: justify;
       align-content: space-between;
   justify-items: center;
+  margin-top: 32px;
 }
 
 @media (max-width: 992px) and (min-width: 576px) {
   .us-cont {
     padding: 20px 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .us-cont {
+    margin-top: 0px;
   }
 }
 

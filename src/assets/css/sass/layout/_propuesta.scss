@@ -4,8 +4,16 @@
   justify-content: center;
 }
 .gif-pc {
-  @media (min-width: $tablet-width){
-    margin-top: -40vh;
+  @media (min-width: $big-tablet-width) and (max-width: $desktop-width) {
+    margin-top: -48vh;
+  }
+  @media (min-width: $desktop-width) {
+    margin-top: -55vh;
   }
   margin-top: -40vh;
+}
+#propuesta {
+  h2 {
+    margin-top: 30px;
+  }
 }

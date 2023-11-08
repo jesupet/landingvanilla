@@ -1,7 +1,9 @@
 #incluye {
   background: linear-gradient(180deg, $purple 0%, #C16BF9 98.68%);
-  padding: 48px 0px;
   text-align: center;
+  h2 {
+    padding: 70px 0px 20px;
+  }
 }
 .secciones {
   display: flex;
