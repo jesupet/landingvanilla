@@ -2,7 +2,7 @@
   <button 
     type="button"
     class="btn btn-fuchsia rounded-pill"
-    data-tally-open="3NXjAj" data-tally-layout="modal" data-tally-emoji-text="💜" data-tally-emoji-animation="heart-beat"
+    data-tally-open="3NXjAj" data-tally-layout="modal" data-tally-width="700" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" data-tally-auto-close="2000"
   >
     <router-link :to="to">{{buttonText}}</router-link>
   </button>

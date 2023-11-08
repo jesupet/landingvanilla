@@ -327,7 +327,6 @@ nav {
 
 .gif-pc {
   margin-top: -40vh;
-  max-width: 800px;
 }
 
 @media (min-width: 768px) {
@@ -410,22 +409,6 @@ nav {
 
 #reviews a {
   margin-bottom: -40px;
-}
-
-#reviews .card-text {
-  padding-bottom: 10px;
-}
-
-#reviews .card {
-  -webkit-box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.15);
-          box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.15);
-  border-radius: 35px;
-  border: 1px solid #FFF;
-  max-width: 408px;
-  min-height: 474px;
-  margin-bottom: 80px;
-  position: relative;
-  /* Añade posición relativa */
 }
 
 .logo-cliente {

@@ -8,13 +8,13 @@
       </nav>
       <div class="container text-center main-title">
          <h1 class="white-text mb-4">¿Estás lista para lanzar tu servicio y <span class="pink-text">captar la atención</span>  de tus potenciales clientes?</h1>
-         <p class="bajada">Tu negocio merece un landingpage que refleje lo <span class="bold-text">genial que es</span>.</p>
+         <p class="bajada">Tu negocio merece un landing page que refleje lo <span class="bold-text">genial que es</span>.</p>
       </div>
     </header>
     <WaveComp/>
     <section class="container text-center mb-5 pb-5">
     <div class="div gif-pc-cont">
-      <img src="../assets/pc.png" alt="" class="gif-pc">
+      <img src="../assets/animacion-landings.gif" alt="" class="gif-pc img-fluid">
     </div>
       <FuchsiaButton :buttonText="'Quiero mi landing page'" class="my-4"/>
       <h2 class="">Comunica el mensaje de tu <span class="purple-text">negocio, servicio o lanzamiento</span></h2>
@@ -73,7 +73,7 @@
         />
         <StepCard 
           :CardNumber="'3'" 
-          :CardTittle="'¿Todo OK? Entonces dejamos online tu landingpage.'" 
+          :CardTittle="'¿Todo OK? Entonces dejamos online tu landing page.'" 
           :CardText="'Ya puedes atraer a tus potenciales clientes y captar su interés.'"
         />
       </div>
