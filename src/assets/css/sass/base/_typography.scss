@@ -7,7 +7,7 @@ h1, h2, h3 {
     font-size: $title-size;
   }
 }
-p {
+p, li{
   @media (min-width: $desktop-width) {
     font-size: $subtitle-size;
   }
@@ -86,4 +86,9 @@ p {
 }
 .no-bold {
   font-weight: 400;
+}
+#collapse3 {
+  ul {
+    list-style-type: none;
+  }
 }

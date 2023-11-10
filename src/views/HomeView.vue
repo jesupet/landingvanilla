@@ -197,36 +197,142 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button medium-p" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="#collapse1">
-                Pregunta 1
+                ¿Para qué sirve tener un landing page?
               </button>
             </h2>
             <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
-              <div class="accordion-body medium-p text-start">
-                Respuesta 1
+              <div class="accordion-body text-start">
+                <p class="medium-p">
+                  Un Landing page es una “página web de aterrizaje” y está diseñada para una acción específica. 
+                  Es decir enfocada en un sólo objetivo, como puede ser: <span class="purple-text">capturar leads, promocionar un servicio, un evento u otro similar.</span><br><br>
+                  ¡Es simple y directo!<br><br>
+                  Recuerda, un <span class="purple-text">landng page</span> es como una carta de amor apasionada, mientras que un <span class="purple-text">sitio web</span> es como un libro completo. ¡Ambos son esenciales, pero para diferentes propósitos!
+                </p> 
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button medium-p" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="#collapse2">
-                Pregunta 2
+                ¿Quién realiza el contenido para mi landing page?
               </button>
             </h2>
             <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
-              <div class="accordion-body medium-p text-start">
-                Respuesta 2
+              <div class="accordion-body text-start">
+                <p class="medium-p">
+                  Nadie mejor que tú conoce el negocio, y es por ello que es importante tener claro lo que quieres transmitir con esta página, y para eso <span class="purple-text">debes entregarnos el contenido (textos, componentes de marca e imágenes)</span>  que quieres disponer en él, y al que nosotros le daremos toda la genialidad y diseño para mostrar de una forma clara y atractiva eso que quieres decir.<br><br>
+                  En un comienzo te mandaremos una “estructura tipo”, que puede servirte de apoyo para crear ese contenido, y finalmente al tenerlo en nuestras manos, también te haremos sugerencias en caso de ver que puedes sacar un mayor provecho de él.<br><br>
+                  De todas formas, <span class="purple-text">si necesitas que desarrollemos ese contenido porque no tienes el tiempo suficiente, ¡no es problema!</span> cuéntanos y realizaremos una cotización para apoyarte con ello.
+                </p>
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button medium-p" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="#collapse3">
-                Pregunta 3
+                ¿Cuántas modificaciones/iteraciones tendremos para el proyecto?
               </button>
             </h2>
             <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
-              <div class="accordion-body medium-p text-start">
-                Respuesta 3
+              <div class="accordion-body text-start">
+                <p class="medium-p">
+                  La idea de este servicio es ir rápido pero seguro y eficaz.<br><br>
+                  En ese sentido esperamos generar <span class="purple-text">la menor cantidad de iteraciones posibles</span>. Para ello es importante que tengas el tiempo de revisar con detalle las entregas que realizaremos, para que cumplamos las expectativas que tienes y todo funcione genial.<br><br>
+                  Un ejemplo detallado del proceso sería:
+                  <ul>
+                    <li class="medium-p">
+                      1. Reunión inicial de bienvenida y levantamiento de información.
+                    </li>
+                    <li class="medium-p">
+                      2. Recepción del material que te solicitamos.
+                    </li>
+                    <li class="medium-p">
+                      3. Entrega de propuesta de diseño para tu landing page, junto a recepción de feedback y/o dudas.
+                    </li>
+                    <li class="medium-p">
+                      4. Entrega final de diseño.
+                    </li>
+                    <li class="medium-p">
+                      5. Montaje de tu landing page en HTML, CSS y JS.
+                    </li>
+                    <li class="medium-p">
+                      6. Integración de Whatsapp, Analytics, formulario de contacto y/o CRM.
+                    </li>
+                    <li class="medium-p">
+                      7. Puesta on-line de tu landingpage.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button medium-p" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="#collapse4">
+                No tengo hosting y/o dominio. ¿Qué debo hacer?
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+              <div class="accordion-body text-start">
+                <p class="medium-p">
+                  Te comentamos los pasos a seguir para obtener estos elementos que son indispensables para el proyecto.<br><br>
+                  Te podemos recomendar:<br><br>
+                </p>
+                  <ul>
+                    <li class="medium-p">
+                      Contratación dominio .cl: <a href="https://www.nic.cl" class="purple-text" target="_blank">https://www.nic.cl</a> 
+                    </li>
+                    <li class="medium-p">
+                      Contratación dominio .com: <a href="https://www.godaddy.com/es" class="purple-text" target="_blank">https://www.godaddy.com/es</a> 
+                    </li>
+                    <li class="medium-p">
+                      Contratación hosting + dominio .cl: <a href="https://www.solucionhost.cl" class="purple-text" target="_blank">hhttps://www.solucionhost.cl</a> 
+                    </li>
+                  </ul>
+                 <p class="medium-p">Si en definitiva este tema para ti es chino mandarín y quieres que nosotras lo veamos, no te preocupes que podemos hacerlo. Estos son los costos asociados: <br><br>
+                  Gestión Vanilla: <span class="purple-text">1 UF + los costos de lo que requieras contratar:</span> <br><br>
+                 </p>
+                  <ul>
+                    <li class="medium-p">
+                      Contratación dominio .cl: $9.990 + IVA Anual 
+                    </li>
+                    <li class="medium-p">
+                      Contratación dominio .com: dependerá del nombre del sitio 
+                    </li>
+                    <li class="medium-p">
+                      Contratación hosting básico: desde $11.990
+                    </li>
+                  </ul>
+                  <br>
+                  *Precios sujetos a confirmación al momento de la contratación del servicio
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button medium-p" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="#collapse5">
+                ¿Cuánto demora el proyecto en estar online?
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+              <div class="accordion-body text-start">
+                <p class="medium-p">
+                  El tiempo de desarrollo lo tenemos programado para <span class="purple-text">3 a 4 semanas</span>. Mientras más claro tengas el contenido y lo que quieres lograr, más ágil podemos desarrollar el proceso.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button medium-p" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="#collapse6">
+                ¿Qué medios de pago hay?
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+              <div class="accordion-body text-start">
+                <p class="medium-p">
+                  Puedes pagar con una <span class="purple-text">transferencia</span> a nuestra cuenta corriente. Pagas un 50% al comienzo y el 50% al finalizar contra-entrega.
+                </p>
               </div>
             </div>
           </div>

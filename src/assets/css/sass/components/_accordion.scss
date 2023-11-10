@@ -12,6 +12,7 @@
   }
   .accordion-button:not(.collapsed) {
     background-color: $white;
+    color: $black;
   }
   .accordion-button:focus {
     border: 1px solid $purple;
