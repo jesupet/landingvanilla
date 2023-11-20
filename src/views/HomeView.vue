@@ -105,7 +105,7 @@
                 <p class="card-title mini-title">Futuro Patagonia</p>
                 <p class="card-text medium-p sans">Mario Ureta</p>
                 <p class="card-text mini-little-p">
-                  Pendiente
+                  Después de tomar la decisión de trabajar con Vanilla, creo no haberme equivocado ya que cumplieron con todas mis expectativas. Respecto al diseño, muy ingenioso y cumplieron con los tiempos comprometidos en un principio.
                 </p>
                 <a href="https://www.futuropatagonia.cl" class="btn btn-purple" target="_blank">www.futuropatagonia.cl</a>
               </div>
@@ -118,7 +118,7 @@
                 <p class="card-title mini-title">Amigos de Joaquín</p>
                 <p class="card-text medium-p sans">Javiera</p>
                 <p class="card-text mini-little-p">
-                  Pendiente
+                  La conocí, le conté lo que queríamos y necesitábamos y en tan solo unos días me presentó una página web hermosa. Cálida, delicada y llena de detalles que la hicieron completamente nuestra. Gracias Vanilla por el compromiso y el profesionalismo en todo momento. Gracias por ser parte de amigos de Joaquín ❤️
                 </p>
                 <a href="https://www.amigosdejoaquin.cl" class="btn btn-purple" target="_blank">www.amigosdejoaquin.cl</a>
               </div>

@@ -11,16 +11,23 @@
   }
 }
 #reviews {
-  .card-text {
-    padding-bottom: 10px;
+  .card-text{
+    margin-bottom: 10px;
+    &.mini-little-p {
+      margin-bottom: 30px;
+    }
   }
+    
   .card {
     box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 35px;
     border: 1px solid #FFF;
     max-width: 408px;
-    min-height: 474px;
+    min-height: 527px;
     margin-bottom: 80px;
+    @media (min-width: 1400px) {
+      min-height: 482px;
+    }
   }
 }
 .number {

@@ -220,7 +220,11 @@ p, li {
 }
 
 #reviews .card-text {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+#reviews .card-text.mini-little-p {
+  margin-bottom: 30px;
 }
 
 #reviews .card {
@@ -229,8 +233,14 @@ p, li {
   border-radius: 35px;
   border: 1px solid #FFF;
   max-width: 408px;
-  min-height: 474px;
+  min-height: 527px;
   margin-bottom: 80px;
+}
+
+@media (min-width: 1400px) {
+  #reviews .card {
+    min-height: 482px;
+  }
 }
 
 .number {
