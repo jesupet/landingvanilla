@@ -1,4 +1,5 @@
 <template>
+  <WhatsAppBtn class="whatsapp fixed-button" :v-if="showButton"/>
   <div class="home">
     <PreHeader/>
     <header>
@@ -395,6 +396,7 @@ import PreHeader from '@/components/PreHeader.vue'
 import FuchsiaButton from '@/components/FuchsiaButton.vue'
 import WaveComp from '@/components/WaveComp.vue'
 import StepCard from '@/components/StepCard.vue'
+import WhatsAppBtn from '@/components/WhatsAppBtn.vue'
 
 
 export default {
@@ -404,6 +406,7 @@ export default {
     FuchsiaButton,
     WaveComp,
     StepCard,
+    WhatsAppBtn,
   }
 }
 </script>

@@ -193,6 +193,30 @@ p, li {
   color: #763BFF;
 }
 
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  opacity: 0.8;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  width: 53px;
+}
+
+.whatsapp-icon:hover {
+  opacity: 1;
+}
+
 .wave-comp {
   padding-bottom: 20px;
   width: 200%;
