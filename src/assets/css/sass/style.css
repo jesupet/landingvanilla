@@ -151,6 +151,14 @@ p, li {
   list-style-type: none;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.underline:hover {
+  color: #FF3A81;
+}
+
 .btn-fuchsia {
   background-color: #FF3A81;
   color: #fff;

@@ -92,3 +92,9 @@ p, li{
     list-style-type: none;
   }
 }
+.underline {
+  text-decoration: underline;
+  &:hover {
+    color: $fuchsia;
+  }
+}

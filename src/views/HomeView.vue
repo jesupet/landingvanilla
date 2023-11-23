@@ -54,7 +54,9 @@
         <p class="white-text">Precio lanzamiento: <span class="pink-text big-text">$167.000 +iva </span><span class="tachado">$257.000 + iva</span></p>
         <FuchsiaButton :buttonText="'Quiero mi landing page'" class="my-4"/>
         <p class="little-text white-text">¡Solo 10 cupos a este precio!</p>
-        <p class="little-text white-text pt-5">*El precio no incluye dominio y hosting, debes tenerlo tu. Pero no te preocupes que si no sabes de ello te contamos como hacerlo. <br>*Cualquier sección adicional tendrá un costo asociado que debemos cotizar en caso de ser requerida.</p>
+        <p class="little-text white-text pt-5">*Incluye un año de <a href="#preguntas" class="underline">modificaciones de contenido</a> sin costo.</p>
+        <p class="little-text white-text">*El precio no incluye dominio y hosting, debes tenerlo tu. Pero no te preocupes que si no sabes de ello <a href="#preguntas" class="underline">te contamos como hacerlo</a>.</p>
+        <p class="little-text white-text" >*Cualquier sección adicional tendrá un costo asociado que debemos cotizar en caso de ser requerida.</p>
       </div>
     </section>
     <WaveComp :colorInicial="'#C16BF9'" :colorFinal="'#C16BF9'"/>
@@ -260,6 +262,36 @@
                     </li>
                     <li class="medium-p">
                       7. Puesta on-line de tu landingpage.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button medium-p" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="true" aria-controls="#collapse7">
+                ¿Puedo modificar yo misma el contenido de mi landing page?
+              </button>
+            </h2>
+            <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
+              <div class="accordion-body text-start">
+                <p class="medium-p">
+                  <span class="purple-text">Tu landing lo construimos desde cero</span>, eso quiere decir que el diseño es único y puedes expandirlo más adelante a un sitio web propiamente tal, sin problema. 
+                  <br>
+                  Si necesitas modificar algo no te preocupes, lo haremos nosotros por ti, <span class="purple-text">incluimos un año gratis de modificaciones!</span>
+                  <br>
+                  Con esto incluimos lo siguiente:
+                  <br><br>
+                  <ul>
+                    <li class="medium-p">
+                      Editar o agregar recomendaciones/testimonios de tus clientes
+                    </li>
+                    <li class="medium-p">
+                      Agregar o eliminar fotos 
+                    </li>
+                    <li class="medium-p">
+                      Editar datos de contacto
                     </li>
                   </ul>
                 </p>
