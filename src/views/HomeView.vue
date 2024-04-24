@@ -52,7 +52,7 @@
             <p class="mini-little-p">Whatsapp visible en toda la web</p>
           </div>
         </div>
-        <p class="white-text">Precio lanzamiento: <span class="pink-text big-text d-none">$167.000 +iva </span><span>$257.000 + iva</span></p>
+        <p class="white-text">Precio lanzamiento: <span class="pink-text big-text d-none">$167.000 +iva </span><span>$287.000 + iva</span></p>
         <FuchsiaButton :buttonText="'Quiero mi landing page'" class="my-4"/>
         <p class="little-text white-text d-none">¡Solo 10 cupos a este precio!</p>
         <p class="little-text white-text pt-5">*Incluye un año de <a href="#preguntas" class="underline">modificaciones de contenido</a> sin costo.</p>
@@ -376,7 +376,7 @@
     <section id="lanzamiento">
       <div class="text-center container">
         <h2 class="purple-text">Tenemos precio de lanzamiento</h2>
-        <p><span class="pink-text big-text d-none">$167.000 +iva </span><span>$257.000 + iva</span></p>
+        <p><span class="pink-text big-text d-none">$167.000 +iva </span><span>$287.000 + iva</span></p>
         <p class="little-text mb-4 d-none">¡Solo 10 cupos a este precio!</p>
         <a 
           href="#tally-open=3NXjAj&tally-layout=modal&tally-width=386&tally-emoji-text=💜&tally-emoji-animation=heart-beat&tally-auto-close=6000" 
